@@ -28,7 +28,7 @@ xml_new_path = "output/musicxml/" + str(id) + ".musicxml"
 print(xml_origin_path, xml_new_path)
 movefile(xml_origin_path, xml_new_path)
 
-wav_origin_path = configuration.path + configuration.path_wav + configuration.filename + "_syn.wav"
+wav_origin_path = configuration.path + configuration.path_wav + configuration.filename + ".wav"
 wav_new_path = "output/audio/" + str(id) + "_syn.wav"
 movefile(wav_origin_path, wav_new_path)
 print(wav_origin_path, wav_new_path)
