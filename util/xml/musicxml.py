@@ -1,7 +1,4 @@
 import numpy as np
-import wave
-import struct
-import random
 from util.config import configuration
 from util.xml.smarty import *
 
