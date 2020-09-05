@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7dfb4285-ff1d-4d47-b383-0b9ef5b4de6f" name="jinfans.top">
+        <fileTransfer rootFolder="/home/udf/random_melody" accessType="SFTP" host="120.27.220.185" port="22" sshConfigId="8c378017-7094-4748-a826-8be6c4f98eee" sshConfig="udf@120.27.220.185:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

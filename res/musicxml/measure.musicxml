@@ -1,0 +1,8 @@
+
+    <measure number="$measure_no$">             <!-- 第 measure_no 小节 -->
+
+      $attr&dire$
+
+$notes$
+
+    </measure>

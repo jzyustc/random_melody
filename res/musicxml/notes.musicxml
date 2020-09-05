@@ -1,0 +1,15 @@
+      <note>
+
+        $contents$
+
+        <duration>$duration$</duration>         <!-- 持续时长 -->
+        $tie$
+        <voice>1</voice>
+        <type>$type$</type>
+
+$notations$
+
+        $lyric$
+
+      </note>
+

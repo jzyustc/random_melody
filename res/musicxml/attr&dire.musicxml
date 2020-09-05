@@ -1,0 +1,24 @@
+<attributes>                   <!-- 小节属性 -->
+        <divisions>$divisions$</divisions>   <!-- 设定用 divisions 表示一个四分音符的长度 -->
+        <key>
+          <fifths>0</fifths>         <!-- C大调(没有升降号) -->
+        </key>
+        <time>
+          <beats>$time_num$</beats>
+          <beat-type>$time_divide$</beat-type>   <!-- time_num/time_divide 拍 -->
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>             <!-- 使用高音谱号(G谱号) -->
+        </clef>
+      </attributes>
+
+      <direction placement="above">
+        <direction-type>
+          <metronome parentheses="no">
+            <beat-unit>quarter</beat-unit>
+            <per-minute>$bpm$</per-minute>            <!-- bpm -->
+          </metronome>
+        </direction-type>
+        <sound tempo="$bpm$"/>
+      </direction>

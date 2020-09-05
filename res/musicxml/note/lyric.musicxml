@@ -1,0 +1,4 @@
+<lyric number="$lyric_num$">
+          <syllabic>single</syllabic>
+          <text>$lyric$</text>                  <!-- 歌词 -->
+        </lyric>

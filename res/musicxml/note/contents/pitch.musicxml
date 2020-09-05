@@ -1,0 +1,7 @@
+<pitch>
+          <step>$step$</step>           <!-- 音高 -->
+
+          $alter$
+
+          <octave>$octave$</octave>     <!-- 八度 -->
+        </pitch>
